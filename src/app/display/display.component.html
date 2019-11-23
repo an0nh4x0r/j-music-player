@@ -1,0 +1,22 @@
+<div class="container">
+    <div class="row">
+
+        <div class="card-deck">
+
+            <div *ngFor="let track of searchTrack">
+                <!-- <pre>{{ track | json }}</pre> -->
+    
+                <div *ngIf="track.artwork_url" class="card" style="width: 15rem;" id="cardDecks">
+                    <img src="{{track.artwork_url}}" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-title truncate">{{track.title}}</p>
+                        <button (click)="play(track.stream_url, track.artwork_url)" class="btn btn-primary">play track</button>
+                    </div>
+                </div>
+    
+            </div>
+
+        </div>
+
+    </div>
+</div>

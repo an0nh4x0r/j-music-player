@@ -3,7 +3,9 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  CLIENT_ID: '1512fb9cbe8228095fe92c6503e3a071',
+  apiUrl: 'https://api.soundcloud.com'
 };
 
 /*

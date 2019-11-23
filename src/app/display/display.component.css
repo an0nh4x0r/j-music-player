@@ -1,0 +1,14 @@
+.container {
+    margin-top: 20px;
+}
+
+.truncate {
+    width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#cardDecks {
+    margin-top: 5px;
+}
