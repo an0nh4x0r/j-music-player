@@ -19,7 +19,7 @@
                         <div class="media">
                             <img src="{{track.artwork_url}}" class="mr-3" alt="...">
                             <div class="media-body">
-                                <p class="mt-0">{{track.title}}</p>
+                                <p class="mt-0" truncate>{{track.title}}</p>
                                 <button (click)="play(track.stream_url, track.artwork_url)" class="btn btn-primary"><span class="fa fa-play-circle"> </span> play
                                     track</button>
                             </div>
